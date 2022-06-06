@@ -1,0 +1,232 @@
+body{
+	background-color: white;
+	color: black;
+	font-size: 14px;
+	font-family: 16px;
+	font-family: helvetica, arial, sans-serif;
+	margin: 0;
+}
+
+span{
+	color: #ff8523;
+}
+
+.btn{
+	display: block;
+	background-color: #ff8523;
+	color: white;
+	margin: 5px 20px;
+	padding: 8px;
+	border-radius: 5px;
+	font-weight: normal;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: #0d0d0e;
+}
+
+
+
+#switch{
+	color: black;
+	border: 1px solid #b2b1b1;
+	margin: 10px 20px;
+	border-radius: 5px;
+	display: block;
+	padding: 15px 10px;
+}
+
+.what{
+	font-weight: bolder;
+	font-size: 150%;
+	text-align: center;
+	color: black;
+}
+
+.bhead{
+	color: #b2b1b1;
+	background-color: #eeeeee;
+	font-weight: bold;
+	padding:10px;
+	margin: 0;
+
+}
+
+.basic{
+	padding: 0;
+	border: 1px solid #b2b1b1;
+	margin: 10px 20px;
+}
+
+ul li{
+	font-weight: normal;
+	font-family: sans-serif;
+	font-size: 100%;
+}
+
+.courses{
+	padding: 0;
+	border: 1px solid #b2b1b1;
+	margin: 0px 20px;
+
+}
+
+
+.courses ul li{
+	font-family: montserrat, sans-serif;
+	font-size: 120%;
+	font-weight: bold;
+
+}
+
+button{
+display: block;
+margin: 10px auto;
+background-color: #ff8523;
+border: none;
+padding: 10px;
+color: white;
+font-size: 80%;
+border-radius: 5px;
+}
+
+button:hover{
+background-color: #0d0d0e;
+
+}
+
+img{
+	max-width: 200px;
+	height: 50px;
+	padding: 5px 20px;
+}
+
+#banner{
+	background-color: #0d0d0e;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+
+.bbn{
+	color: 	white;
+	padding: 0px 20px;
+	font-weight: bolder;
+	padding-top: 30px;
+
+}
+
+h1{
+	font-size: 300%;
+	padding-bottom: 0px;
+}
+
+.bbn1{
+	color: 	white;
+	padding: 10px 20px;
+	font-weight: normal	;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin: 	0;
+	
+
+}
+
+#contacts{
+background-color: #0d0d0e;
+margin-bottom: 0;
+}
+
+#contacts{
+	display: flex;
+	flex-grow:1;
+	flex-shrink:1;
+}
+
+
+.hhead{
+	color: white;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: arial;
+	padding: 5px 35px;
+}
+
+
+.normal{
+	color: lightgrey;
+	padding: 0px 20px;
+	margin: 0;
+}
+
+ a{
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 110%;
+}
+
+ul li {
+list-style-type: none;
+
+}
+
+a:hover{
+color: red;
+}
+
+#lg1{
+padding: 0px 20px;
+margin-top: 15px;
+
+}
+
+aside{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.email{
+	padding: 0px 20px;
+	color: white;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+
+
+#copyright{
+padding: 0;
+border: none;
+margin: 0;
+	background-color: #525252;
+
+}
+
+#cc{
+	padding-top: 0;
+	padding: 20px 20px;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	
+}
+
+
+
+// ====================== MEDIA QUERIES =================================
+
+@media (max-width: 600px)
+{
+	#aside{
+		display: none;
+	}
+}
+
+@media (max-width: 700px)
+{
+	#aside{
+		display: none;
+	}
+}
